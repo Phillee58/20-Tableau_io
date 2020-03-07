@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<br>
+<style>
+    .JumboHeaderImg{
+        background-image: url("citi_bike.png");
+        background-size: cover;
+    }
+</style>
+
+<div class="container">
+    <!-- <div class="jumbotron jumbotron-fluid"> -->
+    <div class="jumbotron JumboHeaderImg">
+        <div class="container">
+          <h1 class="display-4">Citi Bike Program</h1>
+          <p class="lead">Markdown Document</p>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col">
+    </div>
+    <div class="col-10">
+        <h5>INTRODUCTION</h5>
+        I created this data viz as a homework assignment at UC Davis Professional and Continuing 
+        Education's <a href="https://bootcamp.ucdavis.edu/data/"><strong>Data Analytics Bootcamp.</strong></a> 
+        <br><br>    
+
+        Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting <a href="https://www.citibikenyc.com/system-data"><strong>data on the program's utilization.</strong></a> Through the team's efforts, 
+            each month bike data is collected, organized, and made public on their site.
+            I exported the csv files from their site, then combined the monthly .csv's into four combined .csv files (2016 - 2019). 
+            I was then able to create a union of the four .csv files in Tableau as my data source.
+            <br><br>
+
+                <center><a class="btn btn-primary" 
+                href="https://public.tableau.com/views/Bike_Trips_15834458555060/VOLUMEDASHBOARD?:display_count=y&:origin=viz_share_link&:showVizHome=yes"target="_blank role="button">
+                <strong>Viz in Tableau Public</strong></a></center>
+        </div>
+        <div class="col">
+        </div>
+      </div>
+<br>
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-10">
+            <h5>VOLUME DASHBOARD</h5>
+            This dashboard shows the volume of bike trips between 2016 - 2019. You can see that the volume of trips has increased every year. 
+            Summer and fall are the quarters/months were the volume is the highest. That's pretty obvious because no one wants to ride a bike in the middle of the winter in NYC.
+        </div>
+        <div class="col">
+        </div>
+      </div>
+<br>
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-10">
+            <h5>DURATION DASHBOARD</h5>
+            This dashboard shows the average time for each bike trip between 2016 - 2019. The average time has slightly reducted of the fours years. 
+            Again, in summer and fall quarters/months riders had higher average times of trips than the winter months.
+        </div>
+        <div class="col">
+        </div>
+      </div>
+<br>
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-10">
+            <h5>START STATION DASHBOARD</h5>
+            Start stations are where the bike trip started. This dashboard shows a map of the highest volume start stations and bar charts that 
+            sort the most popular and least populart start stations. Stations. Five stations had very high volues of starts. This may be very popular stations or they 
+            may be outliers. Further investigation would be necessary.
+        </div>
+        <div class="col">
+        </div>
+      </div>
+<br>
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-10">
+            <h5>END STATION DASHBOARD</h5>
+            End stations are where the bike trip ended and returned. This dashboard shows a map of the highest volume end stations and bar charts 
+            that sort the most popular and least populart end stations. Stations. Five stations also had very high volues of starts. This may be very popular stations or they 
+            may be outliers. Further investigation would be necessary.
+        </div>
+        <div class="col">
+        </div>
+      </div>
+<br>
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-10">
+            <h5>RIDERS STORY</h5>
+            This story looks at demographics for riders and bikes. The average age has decreased from 39.6 to 37.5 years over the four years. 
+            I suppose they are now less older bike riders. Males outnumber females two to one and both genders are seeing ridership increase. 
+            I was also able to crown the "King of the Bikes", by showing which bike had the most trips over the four year period.
+        </div>
+        <div class="col">
+        </div>
+      </div>
+<br>
+<div class="row">
+    <div class="col">
+    </div>
+    <div class="col-10">
+        <small><center>Ⓒ Copyright 2019 - UC Davis Continuing and Professional Education - <a href="https://www.linkedin.com/in/escphillee/">Phil Lee</a></small></center>
+  <small><center>All Rights Reserved</center></small>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
